@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Finsec – Crédito empresarial rápido, seguro e transparente. Acesse até R$ 10 milhões em até 24 horas com as melhores taxas do mercado." />
+  <meta name="robots" content="index, follow" />
+  <title>Finsec | Crédito Empresarial Premium</title>
+
+  <!-- Security Headers via Meta -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), camera=(), microphone=()" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-mark">F</span>
+        <span class="logo-text">INSEC</span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#como-funciona">Como Funciona</a></li>
+        <li><a href="#solucoes">Soluções</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="tel:+551130362223" class="nav-phone"><i class="fas fa-phone"></i> 11 3036.2223</a>
+        <a href="#agendar" class="btn-nav">Agendar Consulta</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <canvas id="particleCanvas"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-dot"></span>
+        Crédito Empresarial Premium
+      </div>
+      <h1 class="hero-headline">
+        Seu negócio merece<br />
+        <em>capital inteligente</em>
+      </h1>
+      <p class="hero-sub">
+        Rápido, seguro e transparente. Acesse crédito em até <strong>24 horas</strong> com as melhores taxas do mercado — sem burocracia, sem surpresas.
+      </p>
+      <div class="hero-actions">
+        <a href="#agendar" class="btn-primary">
+          <i class="fas fa-calendar-check"></i> Agendar Atendimento
+        </a>
+        <a href="https://wa.me/551130362223" target="_blank" rel="noopener noreferrer" class="btn-ghost">
+          <i class="fab fa-whatsapp"></i> Falar com Especialista
+        </a>
+      </div>
+      <div class="hero-metrics">
+        <div class="metric">
+          <span class="metric-num" data-target="24">0</span><span class="metric-unit">h</span>
+          <p>Aprovação</p>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric">
+          <span class="metric-prefix">R$</span>
+          <span class="metric-num" data-target="10">0</span><span class="metric-unit">M+</span>
+          <p>Liberados</p>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric">
+          <span class="metric-num" data-target="98">0</span><span class="metric-unit">%</span>
+          <p>Satisfação</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <div class="trust-bar">
+    <div class="trust-container">
+      <div class="trust-item">
+        <i class="fas fa-shield-halved"></i>
+        <span>Criptografia SSL 256-bit</span>
+      </div>
+      <div class="trust-item">
+        <i class="fas fa-building-columns"></i>
+        <span>Parceiros Bancários Homologados</span>
+      </div>
+      <div class="trust-item">
+        <i class="fas fa-file-contract"></i>
+        <span>Conformidade LGPD</span>
+      </div>
+      <div class="trust-item">
+        <i class="fas fa-award"></i>
+        <span>+500 Empresas Atendidas</span>
+      </div>
+      <div class="trust-item">
+        <i class="fas fa-lock"></i>
+        <span>Dados 100% Protegidos</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOBRE -->
+  <section class="about" id="sobre">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1560472355-536de3962603?w=600&q=80"
+              alt="Equipe Finsec de especialistas financeiros"
+              loading="lazy"
+            />
+            <div class="about-badge">
+              <i class="fas fa-star"></i>
+              <div>
+                <strong>Top Rated</strong>
+                <span>Consultoria Financeira</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <div class="section-eyebrow">Quem Somos</div>
+          <h2 class="section-title">Um time unido pelo seu <em>sucesso</em></h2>
+          <p>Advogados, economistas, consultores e especialistas em crédito trabalham juntos com um único propósito: oferecer a melhor solução financeira para o seu negócio.</p>
+          <p>Diferente de instituições tradicionais, nossa abordagem é personalizada. Analisamos o seu perfil, seu setor e seus objetivos para entregar o produto certo, com as melhores condições do mercado.</p>
+          <div class="about-pillars">
+            <div class="pillar">
+              <i class="fas fa-bolt"></i>
+              <div>
+                <strong>Rápido</strong>
+                <span>Crédito em até 24h</span>
+              </div>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-shield-halved"></i>
+              <div>
+                <strong>Seguro</strong>
+                <span>Dados criptografados</span>
+              </div>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-eye"></i>
+              <div>
+                <strong>Transparente</strong>
+                <span>Sem letras miúdas</span>
+              </div>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-handshake"></i>
+              <div>
+                <strong>Acessível</strong>
+                <span>Para qualquer porte</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="how-it-works" id="como-funciona">
+    <div class="container">
+      <div class="section-header centered">
+        <div class="section-eyebrow">Processo Simplificado</div>
+        <h2 class="section-title">Do contato à <em>liberação</em></h2>
+        <p class="section-desc">Quatro etapas claras e seguras para você ter o capital que precisa, sem complicação.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <div class="step-icon"><i class="fas fa-comments"></i></div>
+          <h3>Consulta Inicial</h3>
+          <p>Você agenda uma conversa com nosso especialista. Entendemos a sua necessidade, o porte da empresa e o objetivo do crédito.</p>
+          <div class="step-tag">Grátis &amp; sem compromisso</div>
+        </div>
+        <div class="step-connector"><i class="fas fa-arrow-right"></i></div>
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <div class="step-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+          <h3>Análise Personalizada</h3>
+          <p>Nossa equipe multidisciplinar analisa seu perfil, histórico e potencial para mapear a melhor solução financeira disponível.</p>
+          <div class="step-tag">Em até 4 horas</div>
+        </div>
+        <div class="step-connector"><i class="fas fa-arrow-right"></i></div>
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <div class="step-icon"><i class="fas fa-file-signature"></i></div>
+          <h3>Proposta &amp; Contrato</h3>
+          <p>Receba uma proposta transparente com taxas, prazos e condições. Tudo digitalmente, com assinatura eletrônica certificada.</p>
+          <div class="step-tag">100% digital</div>
+        </div>
+        <div class="step-connector"><i class="fas fa-arrow-right"></i></div>
+        <div class="step-card">
+          <div class="step-number">04</div>
+          <div class="step-icon"><i class="fas fa-circle-dollar-to-slot"></i></div>
+          <h3>Liberação do Crédito</h3>
+          <p>Aprovado o contrato, o valor é liberado diretamente na sua conta empresarial. Do primeiro contato à liberação: até 24h.</p>
+          <div class="step-tag">TED / PIX imediato</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUÇÕES -->
+  <section class="solutions" id="solucoes">
+    <div class="container">
+      <div class="section-header centered">
+        <div class="section-eyebrow">Nossos Produtos</div>
+        <h2 class="section-title">Soluções feitas sob <em>medida</em></h2>
+        <p class="section-desc">Cada empresa é única. Por isso, oferecemos um portfólio completo de produtos financeiros para cada fase do seu negócio.</p>
+      </div>
+      <div class="solutions-grid">
+        <div class="sol-card featured">
+          <div class="sol-card-inner">
+            <div class="sol-icon"><i class="fas fa-seedling"></i></div>
+            <h3>Capital de Giro</h3>
+            <p>Garanta o fluxo de caixa necessário para manter sua operação rodando com solidez, mesmo nos períodos de maior pressão.</p>
+            <ul class="sol-features">
+              <li><i class="fas fa-check"></i> Taxas a partir de 1,2% a.m.</li>
+              <li><i class="fas fa-check"></i> Prazo até 36 meses</li>
+              <li><i class="fas fa-check"></i> Liberação em 24h</li>
+            </ul>
+            <a href="#agendar" class="sol-cta">Solicitar Análise <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="sol-card">
+          <div class="sol-card-inner">
+            <div class="sol-icon"><i class="fas fa-clock-rotate-left"></i></div>
+            <h3>Antecipação de Recebíveis</h3>
+            <p>Transforme suas vendas a prazo em dinheiro disponível agora. Ideal para quem tem cartão de crédito, duplicatas ou boletos a receber.</p>
+            <ul class="sol-features">
+              <li><i class="fas fa-check"></i> Sem impacto no limite bancário</li>
+              <li><i class="fas fa-check"></i> Crédito instantâneo</li>
+              <li><i class="fas fa-check"></i> Processo 100% digital</li>
+            </ul>
+            <a href="#agendar" class="sol-cta">Solicitar Análise <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="sol-card">
+          <div class="sol-card-inner">
+            <div class="sol-icon"><i class="fas fa-industry"></i></div>
+            <h3>Crédito para Expansão</h3>
+            <p>Financie sua expansão, nova unidade, maquinário ou infraestrutura com condições especiais e prazos estendidos.</p>
+            <ul class="sol-features">
+              <li><i class="fas fa-check"></i> Até R$ 10 milhões</li>
+              <li><i class="fas fa-check"></i> Prazo até 60 meses</li>
+              <li><i class="fas fa-check"></i> Carência personalizada</li>
+            </ul>
+            <a href="#agendar" class="sol-cta">Solicitar Análise <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="sol-card">
+          <div class="sol-card-inner">
+            <div class="sol-icon"><i class="fas fa-scale-balanced"></i></div>
+            <h3>Consultoria Financeira</h3>
+            <p>Nossos economistas e advogados avaliam sua estrutura financeira e jurídica, garantindo a melhor estratégia de captação.</p>
+            <ul class="sol-features">
+              <li><i class="fas fa-check"></i> Diagnóstico gratuito</li>
+              <li><i class="fas fa-check"></i> Equipe multidisciplinar</li>
+              <li><i class="fas fa-check"></i> Relatório personalizado</li>
+            </ul>
+            <a href="#agendar" class="sol-cta">Solicitar Análise <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECURITY SECTION -->
+  <section class="security">
+    <div class="container">
+      <div class="security-grid">
+        <div class="security-text">
+          <div class="section-eyebrow light">Segurança &amp; Conformidade</div>
+          <h2 class="section-title light">Seus dados protegidos com <em>tecnologia de ponta</em></h2>
+          <p>A Finsec adota os mais rigorosos padrões de segurança da informação. Sua privacidade e a integridade dos seus dados são inegociáveis.</p>
+          <div class="security-items">
+            <div class="sec-item">
+              <div class="sec-icon"><i class="fas fa-lock"></i></div>
+              <div>
+                <strong>Criptografia SSL/TLS 256-bit</strong>
+                <span>Todos os dados transmitidos são criptografados de ponta a ponta</span>
+              </div>
+            </div>
+            <div class="sec-item">
+              <div class="sec-icon"><i class="fas fa-user-shield"></i></div>
+              <div>
+                <strong>Conformidade LGPD</strong>
+                <span>Tratamento de dados pessoais 100% conforme a Lei Geral de Proteção de Dados</span>
+              </div>
+            </div>
+            <div class="sec-item">
+              <div class="sec-icon"><i class="fas fa-server"></i></div>
+              <div>
+                <strong>Infraestrutura em Nuvem Segura</strong>
+                <span>Servidores certificados ISO 27001 com redundância e backups automáticos</span>
+              </div>
+            </div>
+            <div class="sec-item">
+              <div class="sec-icon"><i class="fas fa-id-card-clip"></i></div>
+              <div>
+                <strong>Verificação de Identidade</strong>
+                <span>Processo KYC rigoroso para garantir a segurança de todas as operações</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="security-visual">
+          <div class="sec-badge-wrap">
+            <div class="sec-ring sec-ring-1"></div>
+            <div class="sec-ring sec-ring-2"></div>
+            <div class="sec-ring sec-ring-3"></div>
+            <div class="sec-center">
+              <i class="fas fa-shield-halved"></i>
+              <span>Protegido</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header centered">
+        <div class="section-eyebrow">Depoimentos</div>
+        <h2 class="section-title">O que nossos clientes <em>dizem</em></h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"A Finsec foi fundamental para a expansão da nossa rede. Em menos de 24 horas tínhamos o capital disponível. Processo impecável, sem surpresas."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">RS</div>
+            <div>
+              <strong>Ricardo S.</strong>
+              <span>CEO – Rede de Franquias, SP</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card testi-featured">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Precisávamos antecipar recebíveis com urgência. A equipe da Finsec entendeu nossa situação de imediato e entregou uma solução que nenhum banco havia oferecido."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AM</div>
+            <div>
+              <strong>Ana M.</strong>
+              <span>Diretora Financeira – Indústria Têxtil, Campinas</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"O diferencial da Finsec é o atendimento humano e especializado. Não é um sistema automático — são pessoas que realmente entendem do seu negócio."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">FP</div>
+            <div>
+              <strong>Felipe P.</strong>
+              <span>Fundador – Tech Startup, Campinas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGENDAMENTO -->
+  <section class="schedule" id="agendar">
+    <div class="container">
+      <div class="schedule-grid">
+        <div class="schedule-info">
+          <div class="section-eyebrow">Agendamento Inteligente</div>
+          <h2 class="section-title">Comece hoje a transformar o futuro da sua empresa</h2>
+          <p>Preencha o formulário e nossa equipe entrará em contato em até <strong>2 horas úteis</strong> para confirmar seu atendimento.</p>
+          <div class="sched-features">
+            <div class="sched-feat">
+              <i class="fas fa-clock"></i>
+              <span>Resposta em até 2h úteis</span>
+            </div>
+            <div class="sched-feat">
+              <i class="fas fa-video"></i>
+              <span>Atendimento presencial ou online</span>
+            </div>
+            <div class="sched-feat">
+              <i class="fas fa-gift"></i>
+              <span>Primeira consulta gratuita</span>
+            </div>
+          </div>
+          <div class="contact-direct">
+            <p class="contact-label">Prefere contato direto?</p>
+            <a href="tel:+551130362223" class="contact-link">
+              <i class="fas fa-phone"></i> 11 3036.2223
+            </a>
+            <a href="https://wa.me/551130362223" target="_blank" rel="noopener noreferrer" class="contact-link whatsapp">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="https://www.linkedin.com/company/finsec" target="_blank" rel="noopener noreferrer" class="contact-link linkedin">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://www.instagram.com/finsec" target="_blank" rel="noopener noreferrer" class="contact-link instagram">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+          </div>
+        </div>
+        <div class="schedule-form-wrap">
+          <div id="formSuccess" class="form-success" style="display:none;">
+            <i class="fas fa-circle-check"></i>
+            <h3>Agendamento Enviado!</h3>
+            <p>Nossa equipe entrará em contato em breve. Obrigado!</p>
+          </div>
+          <form id="scheduleForm" class="schedule-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nome">Nome Completo *</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="telefone">Telefone / WhatsApp *</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required autocomplete="tel" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Seu melhor e-mail *</label>
+              <input type="email" id="email" name="email" placeholder="email@empresa.com.br" required autocomplete="email" />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="empresa">Razão Social / Nome da Empresa *</label>
+                <input type="text" id="empresa" name="empresa" placeholder="Nome da empresa" required />
+              </div>
+              <div class="form-group">
+                <label for="cnpj">CNPJ</label>
+                <input type="text" id="cnpj" name="cnpj" placeholder="00.000.000/0001-00" maxlength="18" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="solucao">Solução de Interesse</label>
+              <select id="solucao" name="solucao">
+                <option value="">Selecione uma opção...</option>
+                <option>Capital de Giro</option>
+                <option>Antecipação de Recebíveis</option>
+                <option>Crédito para Expansão</option>
+                <option>Consultoria Financeira</option>
+                <option>Outra / Não sei ainda</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem (opcional)</label>
+              <textarea id="mensagem" name="mensagem" rows="3" placeholder="Conte brevemente sobre sua necessidade..."></textarea>
+            </div>
+            <div class="form-privacy">
+              <input type="checkbox" id="lgpd" name="lgpd" required />
+              <label for="lgpd">Concordo com a <a href="#" target="_blank">Política de Privacidade</a> e autorizo o contato da Finsec.</label>
+            </div>
+            <div id="formError" class="form-error" style="display:none;"></div>
+            <button type="submit" class="btn-submit" id="submitBtn">
+              <i class="fas fa-calendar-check"></i>
+              <span>Agendar Meu Atendimento</span>
+              <div class="btn-loader" style="display:none;"><i class="fas fa-circle-notch fa-spin"></i></div>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAPA -->
+  <section class="map-section" id="contato">
+    <div class="container">
+      <div class="section-header centered">
+        <div class="section-eyebrow">Localização</div>
+        <h2 class="section-title">Venha nos <em>visitar</em></h2>
+        <p class="section-desc">Alphabusiness – Sala 220, Rua Aguaçu 171, Campinas – SP</p>
+      </div>
+    </div>
+    <div class="map-wrapper">
+      <iframe
+        title="Localização Finsec – Alphabusiness Campinas"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2!2d-47.0629!3d-22.9056!2m3!1f0!2f0!3t=k!4b1!3m4!1s0x94c8c8f2e9e9e9e9%3A0x1!8m2!3d-22.9056!4d-47.0629!5e1!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr&q=Rua+Agua%C3%A7u,+171,+Campinas,+SP&layer=satellite"
+        width="100%"
+        height="420"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <div class="container">
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="cc-icon"><i class="fas fa-location-dot"></i></div>
+          <h4>Endereço</h4>
+          <p>Alphabusiness, Sala 220<br />Rua Aguaçu, 171 – Campinas, SP</p>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon"><i class="fas fa-phone"></i></div>
+          <h4>Telefone</h4>
+          <a href="tel:+551130362223">11 3036.2223</a>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon"><i class="fab fa-linkedin"></i></div>
+          <h4>LinkedIn</h4>
+          <a href="https://www.linkedin.com/company/finsec" target="_blank" rel="noopener noreferrer">linkedin.com/company/finsec</a>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon"><i class="fab fa-instagram"></i></div>
+          <h4>Instagram</h4>
+          <a href="https://www.instagram.com/finsec" target="_blank" rel="noopener noreferrer">@finsec</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="logo-mark">F</span>
+            <span class="logo-text">INSEC</span>
+          </div>
+          <p>Crédito empresarial premium.<br />Rápido, seguro, transparente e acessível.</p>
+          <div class="footer-socials">
+            <a href="https://www.linkedin.com/company/finsec" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Finsec"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/finsec" target="_blank" rel="noopener noreferrer" aria-label="Instagram Finsec"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/551130362223" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Finsec"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h5>Navegação</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#como-funciona">Como Funciona</a></li>
+            <li><a href="#solucoes">Soluções</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Soluções</h5>
+          <ul>
+            <li><a href="#agendar">Capital de Giro</a></li>
+            <li><a href="#agendar">Antecipação de Recebíveis</a></li>
+            <li><a href="#agendar">Crédito para Expansão</a></li>
+            <li><a href="#agendar">Consultoria Financeira</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Contato</h5>
+          <ul>
+            <li><a href="tel:+551130362223"><i class="fas fa-phone"></i> 11 3036.2223</a></li>
+            <li><a href="#contato"><i class="fas fa-location-dot"></i> Campinas, SP</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Finsec. Todos os direitos reservados. CNPJ: 00.000.000/0001-00</p>
+        <div class="footer-legal">
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos de Uso</a>
+          <a href="#">LGPD</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING CTA -->
+  <a href="https://wa.me/551130362223" target="_blank" rel="noopener noreferrer" class="floating-wa" aria-label="WhatsApp Finsec">
+    <i class="fab fa-whatsapp"></i>
+    <span>Fale Conosco</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
